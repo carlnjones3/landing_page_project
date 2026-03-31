@@ -1,0 +1,221 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #416597
+
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    margin-right: 170px;
+    margin-left: 200px;
+    gap: 100px;
+
+
+}
+
+.links {
+    display: flex;
+    gap: 23px;
+    align-items: center;
+    text-decoration-style: none
+}
+
+#pic1 {
+    height: 250px;
+    width: 425px;
+    margin-top: 20px;
+}
+
+.logo {
+    height: 65px;
+    width: 195px;
+}
+
+.sec1 {
+    background-color: #1f2937;
+}
+
+.midsec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 46px;
+}
+
+.midtext {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 360px;
+    color: #f9faf8;
+}
+
+.midp {
+    color: #c3c3c3;
+}
+
+#sched {
+    text-align: center;
+    margin-top: 20px;
+    padding: 7px 15px;
+    background-color: #3882f6;
+    color: #ffff;
+}
+
+
+/* END OF SEC1 STYLES. NOW BEGINNING SEC2 STYLES. */
+
+
+
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.sec2 h1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 25px 0px;
+
+
+}
+
+.pics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pic1, .pic2, .pic3, .pic4 {
+    display: flex;
+    flex-direction: column;
+}
+
+#tmcp {
+    height: 200px;
+    width: 300px;
+}
+
+#mchp {
+    height: 200px;
+    width: 300px;
+}
+
+#ktyp {
+    height: 200px;
+    width: 300px;
+}
+
+#sglp {
+    height: 200px;
+    width: 300px;
+}
+
+.pic1 p, .pic2 p, .pic3 p, .pic4 p {
+    text-align: center;
+    font-size: large;
+}
+
+/* END OF SEC2 STYLES. NOW BEGINNING SEC3 STYLES.*/
+
+
+.sec3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    margin-top: 58px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.sec3txt {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.sec3 h2 {
+    max-width: 700px;
+    font-size: 22px;
+}
+
+.sec3ps {
+    align-self: flex-end;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#p2 {
+    font-size: 13px;
+    max-width: 200px;
+    text-align: center;
+}
+
+
+/* END OF SEC2 STYLES. NOW BEGINNING SEC3 STYLES.*/
+
+
+.sec4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.cb{
+    display: flex;
+    background-color: #3882f6;
+    width: 1700px;
+    padding: 15px 30px;
+    justify-content: space-between;
+}
+
+.cbtext {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.cb h3{
+    color: #f9faf8;
+}
+
+.cb p {
+    font-size: 10px;
+    color: #f9f8fa;
+    font-style: italic;
+}
+
+.cb a {
+    align-self: center;
+}
+
+.cb button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 12px 8px;
+    border: 1px solid #f9f8fa;
+    
+}
